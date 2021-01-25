@@ -1,7 +1,5 @@
-# gliders
-The front page / home page for IOOS National Glider DAC
-
-Please do not file issues here,  all GliderDAC related issues should be filed in the [IOOS National Glider Data Assembly Center (V2)](OOS National Glider Data Assembly Center (V2)) repository.
+# IOOS Model Viewer Landing
+The front page / home page for IOOS Model Viewer Landing
 
 
 # Installation
@@ -41,8 +39,7 @@ in the container and lead to ugly CSS.
 # Developing
 
 ## Deployed files:
-gliders.ioos.us is the wordpress site
-gliders.ioos.us/data is this repo.
+___ is this repo.
 
 Most of this project are static files. The initial pages are loaded as jade
 templates.  
