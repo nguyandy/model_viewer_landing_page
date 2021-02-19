@@ -1,5 +1,6 @@
 # IOOS Model Viewer Landing
-The front page / home page for IOOS Model Viewer Landing
+
+The front page / home page for the IOOS Model Viewer landing page
 
 
 # Installation
