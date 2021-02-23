@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'IOOS National Glider DAC', GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID });
+  res.render('index', { title: 'IOOS Model Viewer', GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID });
 });
 
 router.get('/benefits', function(req, res, next) {
