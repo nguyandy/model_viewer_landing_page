@@ -4,14 +4,18 @@ block content
   include header.jade
   #main-container.homepage.container
     .row
-      .col-md-4.welcome
+      .col-md-3.welcome
         .rounded-shadow
             img(src="/images/ioos-eds.png", alt="IOOS Model Viewer")
-      .col-md-8
+      .col-md-9
         .caption.caption-header
           h3 IOOS Model Viewer
-          p.
-            The IOOS Model Viewer provides a platform for visualization and analysis of integrated model output. Users can examine several modeled variables together in a map-based environment, and generate time-series plots of the output. Real-time observations are also available for comparison purposes. The engine driving this visualization is the Environmental Data Server (EDS), which harvests model output from a variety of disparate sources and normalizes the output into a single format: CF-compliant NetCDF. The EDS also provides data access services through a THREDDS server, which is available through the Viewer. This product is intended for use by the marine user community, though is open for exploration by the interested public.
+          p
+            | The IOOS Model Viewer provides a platform for visualization and analysis of integrated model output. Users can examine several modeled variables together in a map-based environment, and generate time-series plots of the output. Real-time observations are also available for comparison purposes. The engine driving this visualization is the Environmental Data Server (EDS), which harvests model output from a variety of disparate sources and normalizes the output into a single format: CF-compliant NetCDF. The EDS also provides data access services through a 
+            a(href="https://eds.ioos.us/thredds/catalog/catalog.html", target="_blank")
+              | THREDDS server
+            | , which is available through the Viewer. This product is intended for use by the marine user community, though is open for exploration by the interested public.
+    hr
     .row
       .col-md-12
         a(href="https://eds.ioos.us/map", target="_blank")

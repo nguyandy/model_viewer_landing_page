@@ -446,3 +446,11 @@ footer > .container > .row > .col-md-3 a:hover {
 footer path {
   fill: #003087;
 } 
+
+.rounded-shadow img{
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 15px;
+  padding-bottom: 0px !important;
+}
+
+
