@@ -10,9 +10,9 @@
   version "4.4.0"
   resolved "https://codeload.github.com/FortAwesome/Font-Awesome/tar.gz/e554555d73a44e0a7d11b0361ad7a5325a5f551c"
 
-"@bower_components/jquery@jquery/jquery-dist#~2.1.4":
-  version "2.1.4"
-  resolved "https://codeload.github.com/jquery/jquery-dist/tar.gz/7751e69b615c6eca6f783a81e292a55725af6b85"
+"@bower_components/jquery@jquery/jquery-dist#~3.4.1":
+  version "3.4.1"
+  resolved "https://codeload.github.com/jquery/jquery-dist/tar.gz/15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
 
 "@bower_components/underscore@jashkenas/underscore#~1.8.3":
   version "1.8.3"
