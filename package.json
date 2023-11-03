@@ -17,7 +17,7 @@
     "serve-favicon": "~2.3.0",
     "@bower_components/bootstrap": "twbs/bootstrap#~3.3.5",
     "@bower_components/font-awesome": "FortAwesome/Font-Awesome#~4.4.0",
-    "@bower_components/jquery": "jquery/jquery-dist#~3.4.1",
+    "@bower_components/jquery": "jquery/jquery-dist#~3.7.1",
     "@bower_components/underscore": "jashkenas/underscore#~1.8.3"
   },
   "engines": {
